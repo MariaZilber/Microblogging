@@ -1,0 +1,87 @@
+html,
+body,
+.App {
+  height: 100%;
+  background-color: #15202b;
+}
+* {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.containerTweets {
+  max-width: 700px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.tweetList {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(1, 600px);
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+}
+
+.tweet.new {
+  background-color: #15202b;
+  border: 2px solid #cccccc;
+  border-radius: 6px;
+}
+textarea {
+  border: none;
+  resize: none;
+  background-color: #15202b;
+  color: #cccccc;
+  font-size: 16px;
+}
+
+textarea:focus {
+  outline: none;
+}
+.tweetFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.errMessageChars {
+  background: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+  color: #721c24;
+  font-size: 16px;
+  padding: 7px 4px 7px 4px;
+}
+
+.tweet {
+  background-color: #343a40;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 6px;
+  padding: 20px;
+  min-height: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.upperTweet {
+  color: #6c757d;
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a.active {
+  color: rgba(255, 255, 255, 0.5);
+}
+.profile {
+  color: white;
+  font-weight: 400;
+}

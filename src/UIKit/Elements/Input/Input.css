@@ -1,0 +1,9 @@
+.Input {
+  border: 2px solid #cccccc;
+  background-color: #e5e5e5;
+  border-radius: 6px;
+  display: flex;
+}
+.Input input {
+  flex: 1;
+}
